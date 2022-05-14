@@ -1,3 +1,42 @@
 body {
   background: blanchedalmond;
 }
+
+.container{
+  border: 11px blueviolet;
+  display: flex;
+  min-height: 10em;
+  min-width: 10em;
+} 
+
+.a{
+  border: 11px yellowgreen;
+  display: flex;
+  min-height: 10em;
+  min-width: 10em;
+}
+
+
+ /* .container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+} */
+
+div  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+.top-row img {
+  width: 100%;
+}
+.middle-row img {
+ width: 49%;
+}
+.bottom-row img {
+ width: 32%;
+}                                  
+
